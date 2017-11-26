@@ -1,0 +1,38 @@
+---
+title: "Compare Vehicle Documentation"
+author: "michael.coursera@eipsoftware.com"
+date: "November 25, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Compare two vehicles Miles per Gallon and CO2 Emissions
+
+The application will show the difference in miles per gallon and CO2 emissions for a particular Year, Make, and Model.
+
+
+To run the application:
+	When the application starts two vehicles information are already selected.
+	If you want information on two different vehicles do the following:
+		1. For the first vehicle
+			+ Choose Year
+			+ Choose Make, the selection box will show available makes for the selected year
+			+ Choose Model, the selection box will show available models for the selected year and make
+		2. Choose Make
+			+ Choose Year for the second vehicle
+			+ Choose Make, for the second vehicle
+			+ Choose Model, for the second vehicle
+		3. After choosing from the available options, the bar charts and summary information below will automaticall update.
+
+		
+<br />
+<br />
+<br />
+
+[Application Location](https://michaelcoursera.shinyapps.io)
+
+<br />
+<br />
